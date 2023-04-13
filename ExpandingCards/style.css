@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Muli', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,6 +41,7 @@ body {
     left: 20px;
     margin: 0;
     opacity: 0;
+    text-shadow: 1px 1px 1px white;
 }
 
 .panel.active {
