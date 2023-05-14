@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.bg {
+    background: url("https://images8.alphacoders.com/848/thumb-1920-848775.jpg")
+    no-repeat center center/cover;
+    /*   
+    background: url('https://www.xtrafondos.com/wallpapers/integrantes-de-blackpink-5981.jpg') no-repeat center center/cover;
+    background: url('https://images.lifestyleasia.com/wp-content/uploads/sites/2/2022/09/16140721/BLACKPINK-1600x900.jpg') no-repeat center center/cover;
+    */
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.loading-text {
+  font-size: 48px;
+  color: #fff;
+}
