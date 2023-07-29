@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+h3 {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+small {
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.fa-star {
+  color: yellow;
+}
+
+.loveMe {
+  height: 440px;
+  width: 700px;
+  background: url("https://www.moshimoshi-nippon.jp/wp/wp-content/uploads/2021/01/77a614fb64aff592cf82bf63e45c0fdf.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: auto;
+  cursor: pointer;
+  max-width: 100%;
+  position: relative;
+  box-shadow: 0 14px 18px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.loveMe .fa-star {
+  position: absolute;
+  animation: grow 0.7s linear;
+  transform: translate(-50%, -50%) scale(0);
+}
+
+@keyframes grow {
+  to {
+    transform: translate(-50%, -50%) scale(10);
+    opacity: 0;
+  }
+}
