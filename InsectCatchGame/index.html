@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Catch the Waifu</title>
+</head>
+
+<body>
+    <div class="screen">
+        <h1>Catch The Waifu</h1>
+        <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+        <h1>What is your favorite waifu?</h1>
+        <ul class="waifu-list">
+            <li>
+                <button class="choose-waifu-btn">
+                    <p>Misato Katsuragi</p>
+                    <img
+                        src="./assets/waifu1-removebg-preview.png"
+                        alt="Missato Katsuragi">
+                </button>
+            </li>
+            <li>
+                <button class="choose-waifu-btn">
+                    <p>Bulma</p>
+                    <img
+                    src="./assets/waifu2-removebg-preview.png"
+                        alt="Bulma">
+                </button>
+            </li>
+            <li>
+                <button class="choose-waifu-btn">
+                    <p>Sailor Moon</p>
+                    <img
+                        src="./assets/waifu3-removebg-preview.png"
+                        alt="Sailor Moon">
+                </button>
+            </li>
+            <li>
+                <button class="choose-waifu-btn">
+                    <p>Tatsumaki</p>
+                    <img
+                        src="./assets/waifu4-removebg-preview.png"
+                        alt="Tatsumaki">
+                </button>
+            </li>
+        </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+        <h3 id="time" class="time">Time: 00:00</h3>
+        <h3 id="score" class="score">Score: 0</h3>
+        <h5 id="message" class="message">
+            Are you annoyed yet? <br>
+            You are playing an impossible game!!
+        </h5>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
