@@ -2,7 +2,7 @@ const API_URL =
   "https://api.themoviedb.org/3/movie/popular?api_key=aea628e690300ae51c08b5357b329b22&page=1";
 const IMG_PATH = "https://image.tmdb.org/t/p/w1280";
 const SEARCH_API =
-  'https://api.themoviedb.org/3/search/movie?api_key=aea628e690300ae51c08b5357b329b22&query="';
+  'https://api.themoviedb.org/3/search/movie?api_key=<SECRET_KEY>&query="';
 
 const form = document.getElementById("form");
 const search = document.getElementById("search");
